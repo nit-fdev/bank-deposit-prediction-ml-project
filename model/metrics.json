@@ -1,0 +1,45 @@
+{
+  "accuracy": 0.8607254814151366,
+  "roc_auc": 0.921287053050718,
+  "use_duration": true,
+  "categorical_columns": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "numerical_columns": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous",
+    "duration"
+  ],
+  "feature_columns": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome",
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous",
+    "duration"
+  ],
+  "model_path": "model/bank_model.keras",
+  "preprocessor_path": "model/preprocessor.joblib"
+}
